@@ -5,6 +5,10 @@ Blog Home Page
 
 ![django1](https://github.com/user-attachments/assets/c01ed237-f512-41dd-9fbf-43a9a7a5d64c)
 
+Blog Detailed Post Page
+
+![django7](https://github.com/user-attachments/assets/34208708-2c30-4f6c-8ed3-5dd66da4aec6)
+
 Blog About Page
 
 ![django2](https://github.com/user-attachments/assets/a9d11245-5727-48a8-89a0-1504a8bc2a9c)
