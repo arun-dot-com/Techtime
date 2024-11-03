@@ -1,0 +1,42 @@
+<!--<header class="p-3 bg-dark text-white">
+    <div class="row">
+        <div class="col">
+            <a class="text-light text-decoration-none" href="/"><h3>Blog</h3></a>
+        </div>
+        <div class="col">
+            <div class="d-flex justify-content-center gap-3">
+                <a class="text-light text-decoration-none" href="/">Home</a>
+                <a class="text-light text-decoration-none" href="{% url 'blog:about' %}">About</a>
+                <a class="text-light text-decoration-none" href="{% url 'blog:contact' %}">Contact</a>
+            </div>
+        </div>
+    </div>
+</header>-->
+{% load static %}
+
+<header class="p-3 bg-dark text-white">
+    <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+            <!-- Logo Section with Larger Image -->
+            <a href="/" class="d-flex align-items-center text-light text-decoration-none">
+                <img src="{% static 'blog/logo.png' %}" alt="Logo" class="logo me-2">
+                <h3 class="m-0">Techtime</h3>
+            </a>
+
+            <!-- Navigation Links -->
+            <nav class="d-flex gap-4">
+                <a class="text-light text-decoration-none" href="/">Home</a>
+                <a class="text-light text-decoration-none" href="{% url 'blog:about' %}">About</a>
+                <a class="text-light text-decoration-none" href="{% url 'blog:contact' %}">Contact</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<style>
+    
+    .logo {
+        height: 40px;  
+        width: auto;
+    }
+</style>
